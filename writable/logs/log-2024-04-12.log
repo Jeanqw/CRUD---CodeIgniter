@@ -1,0 +1,493 @@
+CRITICAL - 2024-04-12 16:37:18 --> ErrorException: Undefined property: CodeIgniter\Database\SQLite3\Builder::$findAll
+in APPPATH\Controllers\Users.php on line 8.
+ 1 APPPATH\Controllers\Users.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\SQLite3\\Builder::$findAll', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Controllers\\Users.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 16:37:36 --> Error: Call to undefined method CodeIgniter\Database\SQLite3\Builder::findAll()
+in APPPATH\Controllers\Users.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 16:38:11 --> Error: Call to undefined method CodeIgniter\Database\SQLite3\Builder::getVar()
+in APPPATH\Controllers\Users.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 16:38:45 --> Error: Object of class App\Controllers\Users could not be converted to string
+in APPPATH\Controllers\Users.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 16:39:20 --> ErrorException: Undefined property: SQLite3::$id
+in APPPATH\Views\editUsers.php on line 19.
+ 1 APPPATH\Views\editUsers.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: SQLite3::$id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 5 APPPATH\Controllers\Users.php(10): view('editUsers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:12:45 --> Error: Class "App\Controllers\Users_table" not found
+in APPPATH\Controllers\Users_print.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:14:20 --> Error: Class "App\Controllers\Users_table" not found
+in APPPATH\Controllers\Users_print.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:14:22 --> Error: Class "App\Controllers\Users_table" not found
+in APPPATH\Controllers\Users_print.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:14:37 --> Error: Class "App\Models\Users_table\BaseController" not found
+in APPPATH\Controllers\Cadastro.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Controllers\\Cadastro.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastro')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastro')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Cadastro', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:15:07 --> ErrorException: Undefined variable $insert
+in APPPATH\Controllers\Cadastro.php on line 15.
+ 1 APPPATH\Controllers\Cadastro.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Controllers\\Cadastro.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:18:19 --> Error: Class "App\Controllers\Users_table" not found
+in APPPATH\Controllers\Cadastro.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:19:20 --> Error: Class "Models\Users_table" not found
+in APPPATH\Controllers\Cadastro.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:19:43 --> Error: Call to a member function getVar() on null
+in APPPATH\Controllers\Cadastro.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 17:20:45 --> ErrorException: SQLite3::exec(): NOT NULL constraint failed: users.password in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'G:\\Users\\jeanca...', 145)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `us...')
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\app\Controllers\Cadastro.php(21): CodeIgniter\Model->insert(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#11 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-12 17:20:45 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:20:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 151.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:20:45\', \'2024-04-12 17:20:45\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:20:45\', \'2024-04-12 17:20:45\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:20:45 --> [Caused by] ErrorException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): NOT NULL constraint failed: users.password', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:20:45\', \'2024-04-12 17:20:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:20:45\', \'2024-04-12 17:20:45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:20:45\', \'2024-04-12 17:20:45\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:21:30 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Users_table"
+in SYSTEMPATH\Model.php on line 771.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Users_table')
+ 2 SYSTEMPATH\BaseModel.php(783): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 17:22:57 --> ErrorException: SQLite3::exec(): NOT NULL constraint failed: users.password in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'G:\\Users\\jeanca...', 145)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `us...')
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\app\Controllers\Cadastro.php(21): CodeIgniter\Model->insert(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#11 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-12 17:22:57 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:22:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 151.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:22:57\', \'2024-04-12 17:22:57\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:22:57\', \'2024-04-12 17:22:57\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:22:57 --> [Caused by] ErrorException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): NOT NULL constraint failed: users.password', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:22:57\', \'2024-04-12 17:22:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:22:57\', \'2024-04-12 17:22:57\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:22:57\', \'2024-04-12 17:22:57\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-12 17:25:45 --> ErrorException: SQLite3::exec(): NOT NULL constraint failed: users.password in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'G:\\Users\\jeanca...', 145)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `us...')
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\app\Controllers\Cadastro.php(21): CodeIgniter\Model->insert(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#11 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-04-12 17:25:45 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:25:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 151.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:25:45\', \'2024-04-12 17:25:45\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:25:45\', \'2024-04-12 17:25:45\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:25:45 --> [Caused by] ErrorException: SQLite3::exec(): NOT NULL constraint failed: users.password
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): NOT NULL constraint failed: users.password', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:25:45\', \'2024-04-12 17:25:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:25:45\', \'2024-04-12 17:25:45\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (\'jean\', \'jean@gmail.com\', \'2024-04-12 17:25:45\', \'2024-04-12 17:25:45\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user_name`, `email`, `created_at`, `updated_at`) VALUES (:user_name:, :email:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Cadastro.php(21): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+11 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:26:45 --> Error: Class "App\Controllers\Users_table" not found
+in APPPATH\Controllers\Users_print.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 17:26:56 --> ErrorException: Undefined variable $db
+in APPPATH\Controllers\Users_print.php on line 9.
+ 1 APPPATH\Controllers\Users_print.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Controllers\\Users_print.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:26:45 --> ArgumentCountError: Too few arguments to function App\Controllers\Delete::excluir(), 0 passed in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php on line 943 and exactly 1 expected
+in APPPATH\Controllers\Delete.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Delete->excluir()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Delete))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:31:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "delete$id=1"
+in SYSTEMPATH\Router\Router.php on line 704.
+ 1 SYSTEMPATH\Router\Router.php(195): CodeIgniter\Router\Router->checkDisallowedChars('delete$id=1')
+ 2 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('delete$id=1')
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:31:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "delete&id=1"
+in SYSTEMPATH\Router\Router.php on line 704.
+ 1 SYSTEMPATH\Router\Router.php(195): CodeIgniter\Router\Router->checkDisallowedChars('delete&id=1')
+ 2 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('delete&id=1')
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:45:42 --> ErrorException: Undefined variable $id
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:45:54 --> ErrorException: Undefined variable $id
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:45:55 --> ErrorException: Undefined variable $id
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:45:57 --> ErrorException: Undefined variable $id
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:46:24 --> ParseError: syntax error, unexpected variable "$id", expecting ")"
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:57:40 --> ErrorException: Undefined variable $id
+in APPPATH\Config\Routes.php on line 12.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php', 12)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:58:19 --> ErrorException: Undefined variable $id
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(345): require('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 19:50:03 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\editUsers.php on line 44.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 4 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:09:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:10:34 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:10:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:10:51 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:10:54 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:11:23 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:12:04 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:12:13 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:12:14 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:12:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('')
+ 2 APPPATH\Views\editUsers.php(40): url_to('')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 20:15:00 --> CodeIgniter\Router\Exceptions\RouterException: The route for "update/3" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('update/3')
+ 2 APPPATH\Views\editUsers.php(40): url_to('update/3')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\editUsers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editUsers', [], true)
+ 6 APPPATH\Controllers\Users_print.php(11): view('editUsers', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Users_print->index()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users_print))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

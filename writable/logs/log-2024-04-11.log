@@ -1,0 +1,418 @@
+CRITICAL - 2024-04-11 17:22:31 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): url_to('/cadastro')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:22:49 --> Error: Call to undefined function uri_to()
+in APPPATH\Views\master.php on line 59.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 5 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:23:16 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): url_to('/cadastro')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:24:10 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): url_to('/cadastro')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:24:11 --> CodeIgniter\Router\Exceptions\RouterException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 493.
+ 1 SYSTEMPATH\Helpers\url_helper.php(493): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): url_to('/cadastro')
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:24:59 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:25:02 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 17:25:19 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/cadastro" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/cadastro')
+ 2 APPPATH\Views\master.php(59): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\View\View.php(228): include('G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\app\\Views\\master.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('master', [], true)
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cadastroUser', [], true)
+ 7 APPPATH\Controllers\Cadastro.php(7): view('cadastroUser')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-11 18:05:38 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:15:18 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:15:56 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:21:21 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:29:50 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:36:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:37:28 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:38:17 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:38:37 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:38:49 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:42:23 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:42:41 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:43:10 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 18:46:56 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-04-11 19:41:58 --> Error: Class "App\Controllers\SQLite3" not found
+in APPPATH\Controllers\Cadastro.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:46:38 --> InvalidArgumentException: mydatabase.db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(365): CodeIgniter\Database\Config::connect('mydatabase.db', true)
+ 2 APPPATH\Controllers\Cadastro.php(11): db_connect('mydatabase.db')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:46:53 --> InvalidArgumentException: mydatabase.db is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(365): CodeIgniter\Database\Config::connect('mydatabase.db', true)
+ 2 APPPATH\Controllers\Cadastro.php(11): db_connect('mydatabase.db')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:48:00 --> Error: Call to undefined method CodeIgniter\Database\SQLite3\Connection::insert()
+in APPPATH\Controllers\Cadastro.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:51:19 --> Error: Call to undefined method CodeIgniter\Database\SQLite3\Connection::insert()
+in APPPATH\Controllers\Cadastro.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-11 19:53:26 --> ErrorException: SQLite3::exec(): table users has no column named user in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'G:\\Users\\jeanca...', 145)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `us...')
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\app\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-11 19:53:26 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): table users has no column named user
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (:user:, :email:, :senha:)', [...], false)
+ 2 APPPATH\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:53:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): table users has no column named user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 151.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (:user:, :email:, :senha:)', [...], false)
+ 4 APPPATH\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:53:26 --> [Caused by] ErrorException: SQLite3::exec(): table users has no column named user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): table users has no column named user', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user`, `email`, `senha`) VALUES (:user:, :email:, :senha:)', [...], false)
+ 6 APPPATH\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-11 19:54:44 --> ErrorException: SQLite3::exec(): table users has no column named user in G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php:145
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'G:\\Users\\jeanca...', 145)
+#1 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `us...')
+#2 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `us...')
+#3 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#4 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#5 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\app\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+#7 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+#8 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\Users\jeancampos\Downloads\framework-4.4.7\framework-4.4.7\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-11 19:54:44 --> CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): table users has no column named user
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user`, `email`, `password`) VALUES (:user:, :email:, :password:)', [...], false)
+ 2 APPPATH\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:54:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: SQLite3::exec(): table users has no column named user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 151.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user`, `email`, `password`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user`, `email`, `password`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user`, `email`, `password`) VALUES (:user:, :email:, :password:)', [...], false)
+ 4 APPPATH\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-11 19:54:44 --> [Caused by] ErrorException: SQLite3::exec(): table users has no column named user
+in SYSTEMPATH\Database\SQLite3\Connection.php on line 145.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec(): table users has no column named user', 'G:\\Users\\jeancampos\\Downloads\\framework-4.4.7\\framework-4.4.7\\system\\Database\\SQLite3\\Connection.php', 145)
+ 2 SYSTEMPATH\Database\SQLite3\Connection.php(145): SQLite3->exec('INSERT INTO `users` (`user`, `email`, `password`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `users` (`user`, `email`, `password`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`user`, `email`, `password`) VALUES (\'jean\', \'jean@gmail.com\', \'123\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`user`, `email`, `password`) VALUES (:user:, :email:, :password:)', [...], false)
+ 6 APPPATH\Controllers\Cadastro.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Cadastro->cadastrar()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastro))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
